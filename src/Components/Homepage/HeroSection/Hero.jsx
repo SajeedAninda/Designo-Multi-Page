@@ -6,7 +6,7 @@ import heroImg from "../../../assets/home/desktop/image-hero-phone.png";
 const Hero = () => {
     return (
         <div className='w-[1000px] mx-auto'>
-            <div className='mainDiv bg-[#e88069] relative h-[640px] w-full rounded-2xl px-20 flex items-center overflow-hidden mb-20'>
+            <div className='mainDiv bg-[#e88069] relative h-[640px] w-full rounded-2xl px-20 flex items-center overflow-hidden'>
                 <div className="textDiv w-[55%]">
                     <h1 className='text-[50px] font-medium text-white leading-[50px]'>
                         Award-winning custom designs and digital branding solutions
