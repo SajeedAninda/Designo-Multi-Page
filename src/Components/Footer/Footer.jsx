@@ -1,6 +1,11 @@
 import React from 'react'
 import TalkProject from '../Homepage/TalkProject/TalkProject'
 import logo from '../../assets/shared/desktop/logo-light.png'
+import fbIcon from '../../assets/shared/desktop/icon-facebook.svg';
+import instaIcon from '../../assets/shared/desktop/icon-instagram.svg';
+import twitterIcon from '../../assets/shared/desktop/icon-twitter.svg';
+import pinterestIcon from '../../assets/shared/desktop/icon-pinterest.svg';
+import ytIcon from '../../assets/shared/desktop/icon-youtube.svg';
 import { Link } from 'react-router-dom'
 
 const Footer = () => {
@@ -36,6 +41,14 @@ const Footer = () => {
               <p className='font-bold'>Contact Us (Central Office)</p>
               <p>P : +1 253-863-8967</p>
               <p>M : contact@designo.co</p>
+            </div>
+
+            <div className='iconDiv flex items-center gap-4 justify-end'>
+                <img src={fbIcon} alt="" />
+                <img src={ytIcon} alt="" />
+                <img src={twitterIcon} alt="" />
+                <img src={pinterestIcon} alt="" />
+                <img src={instaIcon} alt="" />
             </div>
           </div>
         </div>
