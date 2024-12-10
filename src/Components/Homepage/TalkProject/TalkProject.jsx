@@ -3,7 +3,7 @@ import "./cta.css"
 
 const TalkProject = () => {
     return (
-        <div>
+        <div className='absolute -top-16 left-1/2 transform -translate-x-1/2 -translate-y-1/2 '>
             <div className='w-[1000px] mx-auto py-20 px-24 rounded-2xl bg-[#e88069] flex items-center justify-between relative ctaBg'>
                 <div className='w-[60%]'>
                     <h2 className='text-[40px] font-medium text-white leading-[40px] w-[60%]'>

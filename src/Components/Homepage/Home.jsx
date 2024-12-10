@@ -10,7 +10,6 @@ const Home = () => {
            <Hero></Hero> 
            <ProjectGallery></ProjectGallery>
            <Illustration></Illustration>
-           <TalkProject></TalkProject>
         </>
     );
 };

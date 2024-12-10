@@ -1,0 +1,47 @@
+import React from 'react'
+import TalkProject from '../Homepage/TalkProject/TalkProject'
+import logo from '../../assets/shared/desktop/logo-light.png'
+import { Link } from 'react-router-dom'
+
+const Footer = () => {
+  return (
+    <div className='relative'>
+      <TalkProject></TalkProject>
+      <footer className='bg-[#1c1b1d] w-full pt-40 pb-20'>
+        <div className='w-[1000px] mx-auto'>
+          <div className='upperDiv pb-8 border-b-2 border-[#2f2f30] flex justify-between items-center'>
+            <Link to={'/'} className='logoDiv'>
+              <img className='w-[200px]' src={logo} alt='' />
+            </Link>
+
+            <div className='linkDiv uppercase flex items-center gap-10 text-white tracking-wider text-[15px]'>
+              <div className='div hover:underline cursor-pointer'>
+                Our Company
+              </div>
+              <div className='div hover:underline cursor-pointer'>
+                Locations
+              </div>
+              <div className='div hover:underline cursor-pointer'>Contact</div>
+            </div>
+          </div>
+
+          <div className='lowerDiv grid grid-cols-3 pt-8'>
+            <div className='text-[#828283] font-semibold space-y-1'>
+              <p className='font-bold'>Designo Central Office</p>
+              <p>3886 Wellington Street</p>
+              <p>Toronto, Ontario M9C 3J5</p>
+            </div>
+
+            <div className='text-[#828283] font-semibold space-y-1'>
+              <p className='font-bold'>Contact Us (Central Office)</p>
+              <p>P : +1 253-863-8967</p>
+              <p>M : contact@designo.co</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  )
+}
+
+export default Footer
