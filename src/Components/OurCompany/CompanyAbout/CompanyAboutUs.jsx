@@ -1,5 +1,4 @@
 import React from 'react'
-import ProjectGallery from '../../Homepage/ProjectGallery/ProjectGallery'
 import aboutImg from '../../../assets/about/desktop/image-about-hero.jpg';
 import "./aboutBg.css";
 
@@ -26,7 +25,6 @@ const CompanyAboutUs = () => {
           </div>
         </div>
       </div>
-      <ProjectGallery></ProjectGallery>
     </div>
   )
 }
