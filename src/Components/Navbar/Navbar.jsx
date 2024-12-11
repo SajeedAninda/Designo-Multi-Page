@@ -10,9 +10,9 @@ const Navbar = () => {
             </Link>
 
             <div className="linkDiv uppercase flex items-center gap-10 text-[#323036] tracking-wider text-[15px]">
-                <div className="div hover:underline cursor-pointer">
+                <Link to={"/aboutCompany"} className="div hover:underline cursor-pointer">
                     Our Company
-                </div>
+                </Link>
                 <div className="div hover:underline cursor-pointer">
                     Locations
                 </div>
