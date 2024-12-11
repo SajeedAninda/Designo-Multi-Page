@@ -6,7 +6,7 @@ import bgPattern from '../../../assets/home/desktop/bg-pattern-hero-home.svg'
 
 const CountriesTiles = () => {
   return (
-    <div className='pt-32 pb-[340px]'>
+    <div className='pt-32'>
       <div className='w-[1000px] mx-auto'>
         <div className='grid grid-cols-3 gap-12 items-center'>
           <div className='passionate flex flex-col items-center relative'>
