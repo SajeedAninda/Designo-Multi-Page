@@ -3,7 +3,7 @@ import talentImg from '../../../assets/about/desktop/image-world-class-talent.jp
 
 const WorldClass = () => {
   return (
-    <div className=' pt-32 pb-[340px]'>
+    <div className='pt-32'>
       <div className='w-[1000px] mx-auto rounded-2xl bg-[#ffac993d] flex flex-row-reverse items-center justify-between'>
         <div className='w-[65%] pl-24'>
           <h2 className='text-[40px] font-medium text-[#E88069] leading-[40px] w-[60%]'>
