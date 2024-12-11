@@ -1,0 +1,6 @@
+.locationBg{
+    background-image: url('../../assets/shared/desktop/bg-pattern-two-circles.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
