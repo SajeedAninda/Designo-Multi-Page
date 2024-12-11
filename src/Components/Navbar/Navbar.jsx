@@ -13,9 +13,9 @@ const Navbar = () => {
                 <Link to={"/aboutCompany"} className="div hover:underline cursor-pointer">
                     Our Company
                 </Link>
-                <div className="div hover:underline cursor-pointer">
+                <Link to={"/locations"} className="div hover:underline cursor-pointer">
                     Locations
-                </div>
+                </Link>
                 <div className="div hover:underline cursor-pointer">
                     Contact
                 </div>
