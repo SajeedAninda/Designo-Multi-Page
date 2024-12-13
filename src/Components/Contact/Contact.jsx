@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Swal from "sweetalert2";
 import "./contact.css";
+import CountriesTiles from "../OurCompany/CountriesTile/CountriesTiles";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -158,6 +159,8 @@ const Contact = () => {
           </form>
         </div>
       </div>
+
+      <CountriesTiles></CountriesTiles>
     </div>
   );
 };
