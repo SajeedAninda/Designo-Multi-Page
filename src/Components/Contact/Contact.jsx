@@ -68,7 +68,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="pb-[340px]">
+    <div className="pb-32">
       <div className="w-[1000px] mx-auto px-8 py-10 bg-[#e88069] rounded-2xl flex justify-between items-center contactBg">
         <div className="flex-1">
           <h2 className="text-[50px] font-medium text-white leading-[40px]">
