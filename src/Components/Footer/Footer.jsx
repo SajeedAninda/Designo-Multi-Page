@@ -24,9 +24,9 @@ const Footer = () => {
             </Link>
 
             <div className='linkDiv uppercase flex items-center gap-10 text-white tracking-wider text-[15px]'>
-              <div className='div hover:underline cursor-pointer'>Our Company</div>
-              <div className='div hover:underline cursor-pointer'>Locations</div>
-              <div className='div hover:underline cursor-pointer'>Contact</div>
+              <Link to={"/aboutCompany"} className='div hover:underline cursor-pointer'>Our Company</Link>
+              <Link to={"/locations"} className='div hover:underline cursor-pointer'>Locations</Link>
+              <Link to={"/contact"} className='div hover:underline cursor-pointer'>Contact</Link>
             </div>
           </div>
 
