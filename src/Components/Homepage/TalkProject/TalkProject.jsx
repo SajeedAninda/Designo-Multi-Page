@@ -1,5 +1,6 @@
 import React from 'react';
 import "./cta.css"
+import { Link } from 'react-router-dom';
 
 const TalkProject = () => {
     return (
@@ -15,9 +16,9 @@ const TalkProject = () => {
                 </div>
 
                 <div className='w-[40%] flex justify-end'>
-                    <button className='uppercase font-medium mt-8 px-8 py-4 rounded-xl bg-white text-[#1c1b1d] hover:bg-[#ffac99] hover:text-white transition duration-500 ease-in-out'>
+                    <Link to={"/contact"} className='uppercase font-medium mt-8 px-8 py-4 rounded-xl bg-white text-[#1c1b1d] hover:bg-[#ffac99] hover:text-white transition duration-500 ease-in-out'>
                         Get In Touch
-                    </button>
+                    </Link>
                 </div>
             </div>
         </div>

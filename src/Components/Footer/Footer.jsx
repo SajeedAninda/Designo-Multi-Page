@@ -1,31 +1,31 @@
-import React from 'react'
-import TalkProject from '../Homepage/TalkProject/TalkProject'
-import logo from '../../assets/shared/desktop/logo-light.png'
+import React from 'react';
+import { useLocation, Link } from 'react-router-dom';
+import TalkProject from '../Homepage/TalkProject/TalkProject';
+import logo from '../../assets/shared/desktop/logo-light.png';
 import fbIcon from '../../assets/shared/desktop/icon-facebook.svg';
 import instaIcon from '../../assets/shared/desktop/icon-instagram.svg';
 import twitterIcon from '../../assets/shared/desktop/icon-twitter.svg';
 import pinterestIcon from '../../assets/shared/desktop/icon-pinterest.svg';
 import ytIcon from '../../assets/shared/desktop/icon-youtube.svg';
-import { Link } from 'react-router-dom'
 
 const Footer = () => {
+  const location = useLocation();
+  
+  const showTalkProject = location.pathname !== '/contact';
+
   return (
     <div className='relative'>
-      <TalkProject></TalkProject>
+      {showTalkProject && <TalkProject />}
       <footer className='bg-[#1c1b1d] w-full pt-40 pb-20'>
         <div className='w-[1000px] mx-auto'>
           <div className='upperDiv pb-8 border-b-2 border-[#2f2f30] flex justify-between items-center'>
             <Link to={'/'} className='logoDiv'>
-              <img className='w-[200px]' src={logo} alt='' />
+              <img className='w-[200px]' src={logo} alt='Logo' />
             </Link>
 
             <div className='linkDiv uppercase flex items-center gap-10 text-white tracking-wider text-[15px]'>
-              <div className='div hover:underline cursor-pointer'>
-                Our Company
-              </div>
-              <div className='div hover:underline cursor-pointer'>
-                Locations
-              </div>
+              <div className='div hover:underline cursor-pointer'>Our Company</div>
+              <div className='div hover:underline cursor-pointer'>Locations</div>
               <div className='div hover:underline cursor-pointer'>Contact</div>
             </div>
           </div>
@@ -44,17 +44,17 @@ const Footer = () => {
             </div>
 
             <div className='iconDiv flex items-center gap-4 justify-end'>
-                <img src={fbIcon} alt="" />
-                <img src={ytIcon} alt="" />
-                <img src={twitterIcon} alt="" />
-                <img src={pinterestIcon} alt="" />
-                <img src={instaIcon} alt="" />
+              <img src={fbIcon} alt='Facebook' />
+              <img src={ytIcon} alt='YouTube' />
+              <img src={twitterIcon} alt='Twitter' />
+              <img src={pinterestIcon} alt='Pinterest' />
+              <img src={instaIcon} alt='Instagram' />
             </div>
           </div>
         </div>
       </footer>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;
