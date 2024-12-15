@@ -10,6 +10,7 @@ import Home from './Components/Homepage/Home.jsx';
 import Company from './Components/OurCompany/Company/Company.jsx';
 import Locations from './Components/Locations/Locations.jsx';
 import Contact from './Components/Contact/Contact.jsx';
+import WebDesign from './Components/Projects/WebDesign/WebDesign.jsx';
 
 const router = createBrowserRouter([
   {
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
       {
         path:"/contact",
         element: <Contact></Contact>
+      },
+      {
+        path:"/web-design",
+        element: <WebDesign></WebDesign>
       },
     ]
   },
