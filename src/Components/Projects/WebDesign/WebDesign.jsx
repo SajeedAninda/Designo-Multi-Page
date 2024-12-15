@@ -5,6 +5,8 @@ import campImg from '../../../assets/web-design/desktop/image-camp.jpg'
 import photonImg from '../../../assets/web-design/desktop/image-photon.jpg'
 import transferImg from '../../../assets/web-design/desktop/image-transfer.jpg'
 import blogrImg from '../../../assets/web-design/desktop/image-blogr.jpg'
+import appDesignImg from '../../../assets/home/desktop/app-design.jpg'
+import graphicsDesignImg from '../../../assets/home/desktop/graphic-design.jpg'
 
 const WebDesign = () => {
   return (
@@ -33,7 +35,7 @@ const WebDesign = () => {
               Express
             </h2>
             <p className='text-[#323036] group-hover:text-white transition-all ease-in-out duration-500 delay-150'>
-            A multi-carrier shipping website for ecommerce businesses
+              A multi-carrier shipping website for ecommerce businesses
             </p>
           </div>
         </div>
@@ -46,10 +48,10 @@ const WebDesign = () => {
           />
           <div className='bg-[#ffac993d] rounded-b-2xl px-4 py-8 text-center space-y-4 group-hover:bg-[#e88069] transition-colors duration-500 ease-in-out'>
             <h2 className='text-[20px] font-medium text-[#e88069] group-hover:text-white tracking-[8px] uppercase'>
-            transfer
+              transfer
             </h2>
             <p className='text-[#323036] group-hover:text-white transition-all ease-in-out duration-500 delay-150'>
-            Site for low-cost money transfers and sending money within seconds
+              Site for low-cost money transfers and sending money within seconds
             </p>
           </div>
         </div>
@@ -65,7 +67,8 @@ const WebDesign = () => {
               photon
             </h2>
             <p className='text-[#323036] group-hover:text-white transition-all ease-in-out duration-500 delay-150'>
-            A state-of-the-art music player with high-resolution audio and DSP effects
+              A state-of-the-art music player with high-resolution audio and DSP
+              effects
             </p>
           </div>
         </div>
@@ -81,11 +84,10 @@ const WebDesign = () => {
               builder
             </h2>
             <p className='text-[#323036] group-hover:text-white transition-all ease-in-out duration-500 delay-150'>
-            Connects users with local contractors based on their location
+              Connects users with local contractors based on their location
             </p>
           </div>
         </div>
-
 
         <div className='blogr rounded-2xl group cursor-pointer'>
           <img
@@ -98,11 +100,10 @@ const WebDesign = () => {
               blogr
             </h2>
             <p className='text-[#323036] group-hover:text-white transition-all ease-in-out duration-500 delay-150'>
-            Blogr is a platform for creating an online blog or publication
+              Blogr is a platform for creating an online blog or publication
             </p>
           </div>
         </div>
-
 
         <div className='camp rounded-2xl group cursor-pointer'>
           <img
@@ -115,8 +116,45 @@ const WebDesign = () => {
               camp
             </h2>
             <p className='text-[#323036] group-hover:text-white transition-all ease-in-out duration-500 delay-150'>
-            Get expert training in coding, data, design, and digital marketing
+              Get expert training in coding, data, design, and digital marketing
             </p>
+          </div>
+        </div>
+      </div>
+
+      <div className='mt-32 w-[1000px] mx-auto'>
+        <div className='flex gap-8 '>
+          <div className='appDesign flex-1 relative group'>
+            <div className='textDiv uppercase absolute flex justify-center items-center flex-col inset-0 z-10 group'>
+              <h1 className='text-white text-[40px] font-medium'>App Design</h1>
+
+              <p className='text-white text-[16px] tracking-widest font-medium mt-6 cursor-pointer'>
+                View Projects
+              </p>
+            </div>
+            <img
+              className='w-full h-full rounded-2xl object-cover'
+              src={appDesignImg}
+              alt='App Design'
+            />
+            <div className='overlay absolute inset-0 bg-slate-900 group-hover:bg-[#e88069] bg-opacity-50 group-hover:bg-opacity-80 transition duration-300 rounded-2xl'></div>
+          </div>
+          <div className='graphicsDesign flex-1 relative group'>
+            <div className='textDiv uppercase absolute flex justify-center items-center flex-col inset-0 z-10 group'>
+              <h1 className='text-white text-[40px] font-medium'>
+                Graphics Design
+              </h1>
+
+              <p className='text-white text-[16px] tracking-widest font-medium mt-6 cursor-pointer'>
+                View Projects
+              </p>
+            </div>
+            <img
+              className='w-full h-full rounded-2xl object-cover'
+              src={graphicsDesignImg}
+              alt='Graphics Design'
+            />
+            <div className='overlay absolute inset-0 bg-slate-900 group-hover:bg-[#e88069] bg-opacity-50 group-hover:bg-opacity-80 transition duration-300 rounded-2xl'></div>
           </div>
         </div>
       </div>
