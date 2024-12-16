@@ -11,6 +11,7 @@ import Company from './Components/OurCompany/Company/Company.jsx';
 import Locations from './Components/Locations/Locations.jsx';
 import Contact from './Components/Contact/Contact.jsx';
 import WebDesign from './Components/Projects/WebDesign/WebDesign.jsx';
+import AppDesign from './Components/Projects/AppDesign/AppDesign.jsx';
 
 const router = createBrowserRouter([
   {
@@ -36,6 +37,10 @@ const router = createBrowserRouter([
       {
         path:"/web-design",
         element: <WebDesign></WebDesign>
+      },
+      {
+        path:"/app-design",
+        element: <AppDesign></AppDesign>
       },
     ]
   },

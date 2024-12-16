@@ -125,7 +125,7 @@ const WebDesign = () => {
 
       <div className='mt-32 w-[1000px] mx-auto'>
         <div className='flex gap-8 '>
-          <div className='appDesign flex-1 relative group'>
+          <div className='appDesign flex-1 relative group h-[275px]'>
             <div className='textDiv uppercase absolute flex justify-center items-center flex-col inset-0 z-10 group'>
               <h1 className='text-white text-[40px] font-medium'>App Design</h1>
 
@@ -140,7 +140,8 @@ const WebDesign = () => {
             />
             <div className='overlay absolute inset-0 bg-slate-900 group-hover:bg-[#e88069] bg-opacity-50 group-hover:bg-opacity-80 transition duration-300 rounded-2xl'></div>
           </div>
-          <div className='graphicsDesign flex-1 relative group'>
+
+          <div className='graphicsDesign flex-1 relative group h-[275px]'>
             <div className='textDiv uppercase absolute flex justify-center items-center flex-col inset-0 z-10 group'>
               <h1 className='text-white text-[40px] font-medium'>
                 Graphics Design
