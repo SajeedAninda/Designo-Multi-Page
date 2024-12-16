@@ -1,36 +1,50 @@
-import React from 'react'
-import logo from '../../assets/shared/desktop/logo-dark.png'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import logo from '../../assets/shared/desktop/logo-dark.png';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <div className='w-[1000px] h-[24vh] mx-auto flex justify-between items-center'>
-      <Link to={'/'} className='logoDiv'>
-        <img className='w-[200px]' src={logo} alt='' />
-      </Link>
+    <div className="w-[1000px] h-[24vh] mx-auto flex justify-between items-center">
+      <NavLink to="/" className="logoDiv">
+        <img className="w-[200px]" src={logo} alt="Company Logo" />
+      </NavLink>
 
-      <div className='linkDiv uppercase flex items-center gap-10 text-[#323036] tracking-wider text-[15px]'>
-        <Link
-          to={'/aboutCompany'}
-          className='div hover:underline cursor-pointer'
+      <div className="linkDiv uppercase flex items-center gap-10 text-[#323036] tracking-wider text-[15px]">
+        <NavLink
+          to="/"
+          className={({ isActive }) =>
+            `div cursor-pointer hover:underline  ${isActive ? 'underline' : ''}`
+          }
         >
           Home
-        </Link>
-        <Link
-          to={'/aboutCompany'}
-          className='div hover:underline cursor-pointer'
+        </NavLink>
+        <NavLink
+          to="/aboutCompany"
+          className={({ isActive }) =>
+            `div cursor-pointer hover:underline  ${isActive ? 'underline' : ''}`
+          }
         >
           Our Company
-        </Link>
-        <Link to={'/locations'} className='div hover:underline cursor-pointer'>
+        </NavLink>
+        <NavLink
+          to="/locations"
+          className={({ isActive }) =>
+            `div cursor-pointer hover:underline  ${isActive ? 'underline' : ''}`
+          }
+        >
           Locations
-        </Link>
-        <Link to={'/contact'} className='div hover:underline cursor-pointer'>
+        </NavLink>
+        <NavLink
+          to="/contact"
+          className={({ isActive }) =>
+            `div cursor-pointer hover:underline  ${isActive ? 'underline' : ''}`
+          }
+        >
           Contact
-        </Link>
+        </NavLink>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
