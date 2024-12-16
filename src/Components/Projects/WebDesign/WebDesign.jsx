@@ -7,6 +7,7 @@ import transferImg from '../../../assets/web-design/desktop/image-transfer.jpg'
 import blogrImg from '../../../assets/web-design/desktop/image-blogr.jpg'
 import appDesignImg from '../../../assets/home/desktop/app-design.jpg'
 import graphicsDesignImg from '../../../assets/home/desktop/graphic-design.jpg'
+import { Link } from 'react-router-dom'
 
 const WebDesign = () => {
   return (
@@ -128,9 +129,9 @@ const WebDesign = () => {
             <div className='textDiv uppercase absolute flex justify-center items-center flex-col inset-0 z-10 group'>
               <h1 className='text-white text-[40px] font-medium'>App Design</h1>
 
-              <p className='text-white text-[16px] tracking-widest font-medium mt-6 cursor-pointer'>
+              <Link to={"/app-design"} className='text-white text-[16px] tracking-widest font-medium mt-6 cursor-pointer'>
                 View Projects
-              </p>
+              </Link>
             </div>
             <img
               className='w-full h-full rounded-2xl object-cover'
@@ -145,9 +146,9 @@ const WebDesign = () => {
                 Graphics Design
               </h1>
 
-              <p className='text-white text-[16px] tracking-widest font-medium mt-6 cursor-pointer'>
+              <Link to={"/graphics-design"} className='text-white text-[16px] tracking-widest font-medium mt-6 cursor-pointer'>
                 View Projects
-              </p>
+              </Link>
             </div>
             <img
               className='w-full h-full rounded-2xl object-cover'
