@@ -12,6 +12,7 @@ import Locations from './Components/Locations/Locations.jsx';
 import Contact from './Components/Contact/Contact.jsx';
 import WebDesign from './Components/Projects/WebDesign/WebDesign.jsx';
 import AppDesign from './Components/Projects/AppDesign/AppDesign.jsx';
+import GraphicsDesign from './Components/Projects/GraphicsDesign/GraphicsDesign.jsx';
 
 const router = createBrowserRouter([
   {
@@ -41,6 +42,9 @@ const router = createBrowserRouter([
       {
         path:"/app-design",
         element: <AppDesign></AppDesign>
+      },{
+        path:"/graphics-design",
+        element: <GraphicsDesign></GraphicsDesign>
       },
     ]
   },
