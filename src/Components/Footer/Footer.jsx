@@ -17,7 +17,7 @@ const Footer = () => {
     <div className='relative'>
       {showTalkProject && <TalkProject />}
       <footer className='bg-[#1c1b1d] w-full pt-40 pb-20'>
-        <div className='w-[1000px] mx-auto'>
+        <div className='w-full lg:w-[1000px] mx-auto'>
           <div className='upperDiv pb-8 border-b-2 border-[#2f2f30] flex justify-between items-center'>
             <Link to={'/'} className='logoDiv'>
               <img className='w-[200px]' src={logo} alt='Logo' />

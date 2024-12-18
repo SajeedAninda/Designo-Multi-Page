@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const ProjectGallery = () => {
     return (
-        <div className='w-[1000px] mx-auto mt-32 flex items-center gap-6'>
+        <div className='w-full lg:w-[1000px] mx-auto mt-32 flex items-center gap-6'>
             {/* Web Design */}
             <div className='flex-1 h-[640px] relative group'>
                 <div className="webDesign h-full group">
