@@ -7,8 +7,8 @@ import bgPattern from '../../../assets/home/desktop/bg-pattern-hero-home.svg'
 const Illustration = () => {
   return (
     <div className='leafBg'>
-      <div className='w-full lg:w-[1000px] mx-auto pt-32 pb-[340px]'>
-        <div className='grid grid-cols-3 gap-12 items-center'>
+      <div className='w-full lg:w-[1000px] px-10 lg:px-0 mx-auto mt-24 lg:pt-32 pb-[340px]'>
+        <div className='grid grid-cols-1 lg:grid-cols-3 gap-12 items-center'>
           <div className='passionate flex flex-col items-center relative'>
             <img className='z-10' src={passionateImg} alt='' />
             <img className='absolute w-[200px]' src={bgPattern} alt='' />
