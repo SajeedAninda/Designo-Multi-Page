@@ -7,7 +7,7 @@ const CompanyAboutUs = () => {
     <div>
       <div>
         <div className='w-full lg:w-[1000px] mx-auto rounded-none lg:rounded-2xl bg-[#e88069] flex flex-col-reverse lg:flex-row items-center justify-between aboutBackground'>
-          <div className='w-full lg:w-[65%] lg:pl-24 text-center lg:text-left py-8 lg:py-0'>
+          <div className='w-full lg:w-[65%] lg:pl-24 text-center lg:text-left py-8 lg:py-0  px-6 lg:px-0'>
             <h2 className='text-[35px] md:text-[40px] lg:text-[50px] font-medium text-white leading-[40px] w-full lg:w-[60%]'>
               About Us
             </h2>
