@@ -6,9 +6,9 @@ import { Link } from 'react-router-dom';
 
 const ProjectGallery = () => {
     return (
-        <div className='w-full lg:w-[1000px] mx-auto mt-32 flex items-center gap-6'>
+        <div className='w-full lg:w-[1000px] px-10 lg:px-0 mx-auto mt-24 lg:mt-32 flex flex-col lg:flex-row items-center gap-6'>
             {/* Web Design */}
-            <div className='flex-1 h-[640px] relative group'>
+            <div className='flex-1 lg:h-[640px] relative group'>
                 <div className="webDesign h-full group">
                     <div className="textDiv uppercase absolute flex justify-center items-center flex-col inset-0 z-10 group">
                         <h1 className='text-white text-[40px] font-medium'>
@@ -29,7 +29,7 @@ const ProjectGallery = () => {
             </div>
 
             {/* App and Graphics Design */}
-            <div className='flex flex-1 flex-col gap-4 h-[640px]'>
+            <div className='flex flex-1 flex-col gap-4 lg:h-[640px]'>
                 <div className="appDesign flex-1 relative group">
                     <div className="textDiv uppercase absolute flex justify-center items-center flex-col inset-0 z-10 group">
                         <h1 className='text-white text-[40px] font-medium'>
@@ -49,7 +49,7 @@ const ProjectGallery = () => {
                 </div>
                 <div className="graphicsDesign flex-1 relative group">
                     <div className="textDiv uppercase absolute flex justify-center items-center flex-col inset-0 z-10 group">
-                        <h1 className='text-white text-[40px] font-medium'>
+                        <h1 className='text-white text-[40px] text-center font-medium'>
                             Graphics Design
                         </h1>
 
