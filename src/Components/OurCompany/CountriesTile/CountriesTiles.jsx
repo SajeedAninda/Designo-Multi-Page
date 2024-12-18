@@ -7,9 +7,9 @@ import { Link } from 'react-router-dom'
 
 const CountriesTiles = () => {
   return (
-    <div className='pt-32'>
-      <div className='w-[1000px] mx-auto'>
-        <div className='grid grid-cols-3 gap-12 items-center'>
+    <div className='pt-24 lg:pt-32'>
+      <div className='w-full lg:w-[1000px] mx-auto'>
+        <div className='grid grid-cols-1 lg:grid-cols-3 gap-12 items-center'>
           <div className='passionate flex flex-col items-center relative'>
             <img className='z-10' src={canadaImg} alt='' />
             <img className='absolute w-[200px]' src={bgPattern} alt='' />
