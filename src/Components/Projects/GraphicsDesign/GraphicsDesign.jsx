@@ -8,8 +8,8 @@ import webDesignImg from '../../../assets/home/desktop/web-design.jpg'
 
 const GraphicsDesign = () => {
   return (
-    <div className='pb-[340px]'>
-      <div className='w-[1000px] mx-auto py-20 px-24 rounded-2xl bg-[#e88069] flex items-center justify-center ctaBg'>
+    <div className='pb-[340px] px-6'>
+      <div className='w-[100%] lg:w-[1000px] mx-auto py-10 px-12 lg:py-20 lg:px-24 rounded-2xl bg-[#e88069] flex items-center justify-center ctaBg'>
         <div className=' flex flex-col text-center items-center justify-center'>
           <h2 className='text-[40px] font-medium text-white leading-[40px]'>
             Graphic design
@@ -21,7 +21,7 @@ const GraphicsDesign = () => {
         </div>
       </div>
 
-      <div className='mt-32 w-[1000px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
+      <div className='mt-32 w-[100%] lg:w-[1000px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
         <div className='Tim Brown rounded-2xl group cursor-pointer'>
           <img
             className='rounded-t-2xl object-contain group'
@@ -71,8 +71,8 @@ const GraphicsDesign = () => {
         </div>
       </div>
 
-      <div className='mt-32 w-[1000px] mx-auto'>
-        <div className='flex gap-8 '>
+      <div className='mt-32 w-[100%] lg:w-[1000px] mx-auto'>
+        <div className='flex flex-col lg:flex-row gap-8 '>
           <div className='appDesign flex-1 relative group h-[275px]'>
             <div className='textDiv uppercase absolute flex justify-center items-center flex-col inset-0 z-10 group'>
               <h1 className='text-white text-[40px] font-medium'>App Design</h1>
