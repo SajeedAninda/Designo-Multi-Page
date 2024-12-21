@@ -7,9 +7,9 @@ import ukImg from '../../assets/locations/desktop/image-map-united-kingdom.png'
 const Locations = () => {
   return (
     <div className='pb-[340px]'>
-      <div className='w-[1000px] mx-auto'>
-        <div className='Canada flex gap-8 items-center justify-between'>
-          <div className='w-[60%] pl-8 pr-28 py-20 rounded-2xl bg-[#ffac993d] locationBg'>
+      <div className='w-[100%] lg:w-[1000px] mx-auto'>
+        <div className='Canada flex flex-col lg:flex-row gap-8 items-center justify-between'>
+          <div className='w-full lg:w-[60%] pl-8 pr-28 py-20 rounded-none lg:rounded-2xl bg-[#ffac993d] locationBg'>
             <h2 className='text-[40px] font-medium text-[#E88069] leading-[40px] w-[60%]'>
               Canada
             </h2>
@@ -35,17 +35,17 @@ const Locations = () => {
             </div>
           </div>
 
-          <div className='w-[40%] flex justify-end'>
+          <div className='w-full lg:w-[40%] flex justify-end'>
             <img
-              className='object-contain w-full rounded-2xl'
+              className='object-contain w-full rounded-none lg:rounded-2xl'
               src={canadaImg}
               alt=''
             />
           </div>
         </div>
 
-        <div className='Australia mt-32 flex flex-row-reverse gap-8 items-center justify-between'>
-          <div className='w-[60%] pl-8 pr-28 py-20 rounded-2xl bg-[#ffac993d] locationBg'>
+        <div className='Australia mt-32 flex flex-col lg:flex-row-reverse gap-8 items-center justify-between'>
+          <div className='w-full lg:w-[60%] pl-8 pr-28 py-20 rounded-none lg:rounded-2xl bg-[#ffac993d] locationBg'>
             <h2 className='text-[40px] font-medium text-[#E88069] leading-[40px] w-[60%]'>
               Australia
             </h2>
@@ -71,17 +71,17 @@ const Locations = () => {
             </div>
           </div>
 
-          <div className='w-[40%] flex justify-end'>
+          <div className='w-full lg:w-[40%] flex justify-end'>
             <img
-              className='object-contain w-full rounded-2xl'
+              className='object-contain w-full rounded-none lg:rounded-2xl'
               src={australiaImg}
               alt=''
             />
           </div>
         </div>
 
-        <div className='UK mt-32 flex gap-8 items-center justify-between'>
-          <div className='w-[60%] pl-8 pr-28 py-20 rounded-2xl bg-[#ffac993d] locationBg'>
+        <div className='UK mt-32 flex flex-col lg:flex-row gap-8 items-center justify-between'>
+          <div className='w-full lg:w-[60%] pl-8 pr-28 py-20 rounded-none lg:rounded-2xl bg-[#ffac993d] locationBg'>
             <h2 className='text-[40px] font-medium text-[#E88069] leading-[40px] w-[60%]'>
               United Kingdom
             </h2>
@@ -107,9 +107,9 @@ const Locations = () => {
             </div>
           </div>
 
-          <div className='w-[40%] flex justify-end'>
+          <div className='w-full lg:w-[40%] flex justify-end'>
             <img
-              className='object-contain w-full rounded-2xl'
+              className='object-contain w-full rounded-none lg:rounded-2xl'
               src={ukImg}
               alt=''
             />
