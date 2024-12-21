@@ -69,8 +69,8 @@ const Contact = () => {
 
   return (
     <div className="pb-32">
-      <div className="w-[1000px] mx-auto px-8 py-10 bg-[#e88069] rounded-2xl flex justify-between items-center contactBg">
-        <div className="flex-1">
+      <div className="w-[100%] lg:w-[1000px] mx-auto px-8 py-10 bg-[#e88069] rounded-none lg:rounded-2xl flex flex-col lg:flex-row justify-between items-center contactBg gap-6 lg:gap-0">
+        <div className="flex-1 text-center lg:text-left">
           <h2 className="text-[50px] font-medium text-white leading-[40px]">
             Contact Us
           </h2>
@@ -82,7 +82,7 @@ const Contact = () => {
           </p>
         </div>
 
-        <div className="flex-1 px-8">
+        <div className="flex-1 px-8 w-full">
           <form onSubmit={handleSubmit}>
             <div>
               <input
@@ -148,7 +148,7 @@ const Contact = () => {
               )}
             </div>
 
-            <div className="flex justify-end">
+            <div className="flex justify-center lg:justify-end">
               <button
                 type="submit"
                 className="uppercase font-medium mt-8 px-8 py-4 rounded-xl bg-white text-[#1c1b1d] hover:bg-[#ffac99] hover:text-white transition duration-500 ease-in-out"
